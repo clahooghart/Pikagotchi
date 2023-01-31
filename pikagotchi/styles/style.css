@@ -1,0 +1,68 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  justify-content: center;
+  text-align: center;
+  background-color: plum;
+  background-image:url('/images/keuken.png');
+  background-repeat:no-repeat;
+  padding-top: 8em;
+}
+
+
+h1 {
+  font-family:monospace;
+  font-size:calc(400%);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white; 
+  background-color: rgb(139,69,18);
+}
+
+button {
+  font-family: monospace;
+  font-weight: bold;
+  color: black;
+  padding: 15px;
+  background-color:lightskyblue;
+  font-size: larger;
+  margin-right: 30em;
+}
+
+.keukenbg {
+  background-image:url('/images/keuken.png');
+  background-repeat:no-repeat;
+  background-position: 50%;
+}
+
+.slaapkamerbg {
+  background-image:url('/images/slaapkamer.png');
+  background-repeat:no-repeat;
+  background-position: 50%;
+}
+
+
+.badkamerbg {
+  background-image:url('/images/badkamer.png');
+  background-repeat:no-repeat;
+  background-position: 50%;
+}
+
+ul {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+ul li img {
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+
+
